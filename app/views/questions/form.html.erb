@@ -1,0 +1,6 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<p>Ask your coach anything:</p>
+<form action="/answer">
+  <input type="text" name="question" value="<%= params[:question] %>" style="min-width:25%;">
+  <input type="submit" value="Ask!" class="btn btn-primary">
+</form>
